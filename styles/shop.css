@@ -51,6 +51,7 @@
 .shop .products-wrapper .sort-and-count {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     gap: 30px;
     font-family: Raleway;
     font-size: 16px;
@@ -66,23 +67,15 @@
 
 .shop .products-wrapper .sort-and-count .sort select {
     width: 100%;
-    width: 260px;
+    height: 42px;
+    padding: 2px;
     appearance: none;
-    -webkit-appearance: none;
-    background-image: url('./icons/arrow-sort.svg');
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 15px 8px;
-    /* Размер значка из вашего изображения */
-    padding-right: 20px;
-    /* Пространство для значка.  Настройте по необходимости */
-    border: none;
-    /* Убираем стандартную рамку, если нужно */
-    appearance: none;
+    background: url('./icons/arrow-sort.svg') no-repeat calc(100%);
     font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
     border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 1);
 }
 
 .shop .products-wrapper .products {
@@ -101,8 +94,10 @@
 
 .shop .products-wrapper .products .product .photo {
     height: 360px;
-    background: green;
+    /* background: green; */
     position: relative;
+    background-image: url('./icons/img-bg.jpg');
+    background-repeat: no-repeat;
 }
 
 .shop .products-wrapper .products .product .top-bar {
@@ -169,6 +164,46 @@
     font-weight: 300;
     text-decoration: line-through;
 }
+
+/* pagination */
+
+.shop .products-wrapper .pagination {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.shop .products-wrapper .pagination .pages {
+    font-family: Raleway;
+    font-size: 16px;
+    display: flex;
+    gap: 20px;
+}
+
+.shop .products-wrapper .pagination .pages .page {
+    font-weight: 400;
+    max-width: 10px;
+    width: 100%;
+    color: rgb(179, 179, 179);
+    border-bottom: 3px solid rgb(179, 179, 179);
+    height: 23px;
+    line-height: 22px;
+    padding: 0 9px 0 1px;
+
+}
+
+.shop .products-wrapper .pagination .pages .page.active {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1);
+    border-bottom: 3px solid rgba(0, 0, 0, 1);
+    height: 23px;
+    line-height: 22px;
+    padding: 0 15px 0 7px;
+}
+
+
 
 /* banner */
 
