@@ -96,10 +96,11 @@
 
 .shop .products-wrapper .products .product .photo {
     height: 360px;
-    background: green;
     position: relative;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: radial-gradient(circle at center in hsl shorter hue,
+            rgba(140, 11, 49, 0.5) 3.0921244221190545%,
+            rgba(217, 217, 250, 0.8) 26.97631479245598%,
+            rgba(113, 123, 94, 0.2) 90.07047940829918%)
 }
 
 .shop .products-wrapper .products .product .top-bar {
