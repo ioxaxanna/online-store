@@ -1,3 +1,230 @@
+.shop {
+    display: flex;
+    gap: 50px;
+}
+
+/* sidebar */
+
+.shop .sidebar {
+    padding: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 244px;
+    width: 100%;
+}
+
+.shop .sidebar input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 1);
+    padding: 0 0 16px 0;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.shop .sidebar .sidebar-item {
+    max-width: 242px;
+    width: 100%;
+}
+
+
+.shop .sidebar .sidebar-item .sidebar-title {
+    border-bottom: 2px solid rgba(0, 0, 0, 1);
+    padding: 0 0 14px 0;
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+/* products */
+
+.shop .products-wrapper {
+    max-width: 846px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.shop .products-wrapper .sort-and-count {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shop .products-wrapper .sort-and-count .sort {
+    max-width: 262px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop .products-wrapper .sort-and-count .sort select {
+    width: 100%;
+    width: 260px;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('./icons/arrow-sort.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 15px 8px;
+    /* Размер значка из вашего изображения */
+    padding-right: 20px;
+    /* Пространство для значка.  Настройте по необходимости */
+    border: none;
+    /* Убираем стандартную рамку, если нужно */
+    appearance: none;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.shop .products-wrapper .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px 30px;
+}
+
+.shop .products-wrapper .products .product {
+    max-width: 262px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.shop .products-wrapper .products .product .photo {
+    height: 360px;
+    background: green;
+    position: relative;
+}
+
+.shop .products-wrapper .products .product .top-bar {
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 222px;
+    width: 100%;
+}
+
+.shop .products-wrapper .products .product .top-bar .labels {
+    display: flex;
+    gap: 10px;
+    font-family: Raleway;
+    font-size: 10px;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 1);
+}
+
+.shop .products-wrapper .products .product .top-bar .favorites {
+    display: flex;
+    align-items: center;
+}
+
+.shop .products-wrapper .products .product .top-bar .labels .label.sale {
+    padding: 5px 10px;
+    background-color: rgba(255, 142, 142, 1);
+}
+
+.shop .products-wrapper .products .product .top-bar .labels .label.new {
+    padding: 5px 10px;
+    background-color: rgba(149, 204, 181, 1);
+}
+
+.shop .products-wrapper .products .product .info-about-product {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.shop .products-wrapper .products .product .info-about-product .name {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shop .products-wrapper .products .product .info-about-product .price {
+    display: flex;
+    gap: 16px;
+    font-family: Josefin Sans;
+    align-items: center;
+}
+
+.shop .products-wrapper .products .product .info-about-product .price .current-price {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.shop .products-wrapper .products .product .info-about-product .price .old-price {
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+/* banner */
+
+.shop .sidebar .banner {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    border-style: inset;
+}
+
+.banner .banner-title {
+    max-width: 148px;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.banner .banner-title span {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.banner .banner-text {
+    max-width: 165px;
+    width: 100%;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.banner .banner-action {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.banner-action-line {
+    max-width: 25px;
+    width: 100%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.banner-action-text {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+}
+
+/* subscribe */
+
 .newsletter-subscribe {
     max-width: 1680px;
     width: 100%;
@@ -7,6 +234,7 @@
 }
 
 .newsletter-subscribe .newsletter-subscribe-form {
+    position: relative;
     max-width: 624px;
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
@@ -17,7 +245,6 @@
 .newsletter-subscribe-form-btn {
     border: none;
     background-color: rgba(0, 0, 0, 1);
-    /* border-right: 2px solid rgba(0, 0, 0, 1); */
     padding: 0 2px 0 0;
     color: rgba(255, 255, 255, 1);
     padding: 17px 30px;
@@ -46,4 +273,10 @@
     font-family: Raleway;
     font-size: 14px;
     font-weight: 400;
+}
+
+.newsletter-subscribe .pattern-dot-newsletter {
+    position: absolute;
+    left: 464px;
+    bottom: 191px;
 }
