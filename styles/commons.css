@@ -7,6 +7,38 @@
     margin: 0 auto;
 }
 
+.container input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(68, 68, 68, 20%);
+    color: rgba(68, 68, 68, 50%);
+    outline: none;
+    padding: 0 0 15px 0;
+}
+
+.black-button {
+    width: 100%;
+    border: none;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 0 2px 0 0;
+    color: rgba(255, 255, 255, 1);
+    padding: 17px 30px;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.black-button:after {
+    height: 100%;
+    content: ' ';
+    top: 0;
+    right: -4px;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+}
+
 .newsletter-subscribe-form-title {
     font-family: Josefin Sans;
     font-size: 32px;
