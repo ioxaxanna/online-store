@@ -77,7 +77,7 @@
 .shop .sidebar .sidebar-item .categories-list .category:active::before {
     color: rgba(255, 142, 142, 1);
     content: '';
-    background-image: url(/icons/small-row.svg);
+    background-image: url(./icons/small-row.svg);
     display: block;
     width: 25px;
     height: 3px;
@@ -85,7 +85,7 @@
 
 .shop .sidebar .sidebar-item .categories-list .category::before {
     content: '';
-    background-image: url(/icons/square.svg);
+    background-image: url(./icons/square.svg);
     display: block;
     width: 5px;
     height: 5px;
@@ -102,7 +102,7 @@
 
 .shop .sidebar .sidebar-item .categories-list .category.active::before {
     content: '';
-    background-image: url(/icons/small-row.svg);
+    background-image: url(./icons/small-row.svg);
     display: block;
     width: 25px;
     height: 3px;
