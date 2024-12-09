@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,10 @@
     <link rel="stylesheet" href="./styles/footer.css">
     <link rel="stylesheet" href="./styles/commons.css">
     <link rel="stylesheet" href="./styles/shop.css">
+    <link rel="stylesheet" href="./styles/cart.css">
     <title>Fashionee / Cart</title>
-</head> 
+</head>
+
 <body>
     <header class="header">
         <div class="left-side">
@@ -61,11 +64,167 @@
             </div>
         </div>
     </header>
-    
-    
 
-    <footer>
+    <div class="first-screen">
+        <div class="dots-element">
+            <img src="./icons/dot-element.svg" alt="dots">
+        </div>
+        <div class="first-screen-description">
+            <div class="first-screen-description-navigation">
+                <div class="title">Cart</div>
+                <div class="bread-crumbs">
+                    <div class="line"></div>
+                    <div class="bread-crumb">Home</div>
+                    <div class="bread-crumb">Shop</div>
+                    <div class="bread-crumb active">Cart</div>
+                </div>
+            </div>
+            <div class="line-element"></div>
+        </div>
+        <div class="content-image"></div>
+    </div>
 
+    <div class="container">
+        <div class="product-cart">
+            <div class="product-cart-items">
+                <div class="product-cart-item">
+                    <div class="product-cart-item-prewiev"></div>
+                    <div class="product-cart-item-information">
+                        <div class="name">Fashionee - catton shirt (S)</div>
+                        <div class="item-info">
+                            <div class="price-and-count">
+                                <div class="price">
+                                    <div class="old-price">$52.99</div>
+                                    <div class="current-price">$35.99</div>
+                                </div>
+                                <div class="count">
+                                    <div class="count-minus"><img src="./icons/minus.svg" alt="minus"></div>
+                                    <div class="count-number">1</div>
+                                    <div class="count-plus"><img src="./icons/plus.svg" alt="plus"></div>
+                                </div>
+                            </div>
+                            <div class="final-price">
+                                $35.99
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-cart-item">
+                    <div class="product-cart-item-prewiev"></div>
+                    <div class="product-cart-item-information">
+                        <div class="name">Spray wrap skirt</div>
+                        <div class="item-info">
+                            <div class="price-and-count">
+                                <div class="price">
+                                    <div class="old-price" hidden>$52.99</div>
+                                    <div class="current-price">$110.99</div>
+                                </div>
+                                <div class="count">
+                                    <div class="count-minus"><img src="./icons/minus.svg" alt="minus"></div>
+                                    <div class="count-number">1</div>
+                                    <div class="count-plus"><img src="./icons/plus.svg" alt="plus"></div>
+                                </div>
+                            </div>
+                            <div class="final-price">
+                                $110.99
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <div class="column column-1">
+                    <div class="logo">
+                        <img src="./icons/logo.svg" alt="">
+                    </div>
+                    <div class="about-brand">
+                        Cillum eu id enim aliquip aute ullamco anim. Culpa deserunt nostrud excepteur voluptate.
+                    </div>
+                    <div class="find-us">
+                        <div class="find-us-text">Find us here:</div>
+                        <div class="find-us-links">
+                            <div class="find-us-link">
+                                <a href="#">FB</a>
+                            </div>
+                            <div class="line"></div>
+                            <div class="find-us-link">
+                                <a href="#">TW</a>
+                            </div>
+                            <div class="line"></div>
+                            <div class="find-us-link">
+                                <a href="#">INS</a>
+                            </div>
+                            <div class="line"></div>
+                            <div class="find-us-link">
+                                <a href="#">PT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column column-2">
+                    <div class="title">About</div>
+                    <ul class="links">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+                <div class="column column-3">
+                    <div class="title">Useful links</div>
+                    <ul class="links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Shipping details</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="column column-4">
+                    <div class="title">Newsletter</div>
+                    <div class="newsletter-text">
+                        Subscribe to be the first to hear about deals, offers and upcoming collections.
+                    </div>
+                    <div class="newsletter-form">
+                        <form action="">
+                            <input type="email" placeholder="Enter your email" class="newsletter-email">
+                            <img src="./icons/send.svg" alt="send-button" class="send-icon">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div>
+                    © All right reserved. Fashionee 2020
+                </div>
+                <div class="payment-methods-container">
+                    <div>Payment methods:</div>
+                    <div class="payment-methods">
+                        <div class="payment-method">
+                            <img src="./icons/visa.svg" alt="visa">
+                        </div>
+                        <div class="payment-method">
+                            <img src="./icons/master-card.svg" alt="master-card">
+                        </div>
+                        <div class="payment-method">
+                            <img src="./icons/paypal.svg" alt="paypal">
+                        </div>
+                        <div class="payment-method">
+                            <img src="./icons/payoneer.svg" alt="payoneer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./icons/vector-footer-left.svg" alt="vector-object" class="pattern-dot-left">
+        <img src="./icons/vector-footer-right.svg" alt="vector-object" class="pattern-dot-right">
     </footer>
 </body>
+
 </html>
