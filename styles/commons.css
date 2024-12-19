@@ -52,3 +52,37 @@
     font-weight: 400;
     margin: 0 0 40px 0;
 }
+
+/* find us */
+
+.find-us {
+    max-width: 192px;
+    width: 100%;
+}
+
+.find-us .find-us-text {
+    margin: 0 0 20px 0;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.find-us .find-us-links {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.find-us .find-us-links .find-us-link a {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgba(68, 68, 68, 1);
+}
+
+.find-us .find-us-links .line {
+    width: 10px;
+    border-bottom: 1px solid rgba(68, 68, 68, 1);
+}

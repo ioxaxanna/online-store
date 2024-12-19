@@ -8,8 +8,6 @@
     margin: 110px 0 90px 0;
 }
 
-.footer .footer-info .column {}
-
 .footer .footer-info .column .title,
 .footer .footer-info .column .title {
     font-family: Josefin Sans;
@@ -114,8 +112,6 @@
     font-size: 14px;
     font-weight: 400;
 }
-
-.footer .footer-info .column .find-us {}
 
 .footer .footer-info .column .find-us .find-us-text {
     margin: 0 0 20px 0;
