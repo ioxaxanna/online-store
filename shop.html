@@ -13,56 +13,58 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="left-side">
-            <div class="logo-container">
-                <div class="burger-menu">
-                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
-                    <label class="burger" for="burger-checkbox"></label>
+    <div class="header-container">
+        <header class="header">
+            <div class="left-side">
+                <div class="logo-container">
+                    <div class="burger-menu">
+                        <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                        <label class="burger" for="burger-checkbox"></label>
+                    </div>
+                    <div class="logo">
+                        <img src="./icons/logo.svg" alt="">
+                    </div>
                 </div>
-                <div class="logo">
-                    <img src="./icons/logo.svg" alt="">
+                <div class="menu">
+                    <div class="menu-item">
+                        <span>Home</span>
+                    </div>
+                    <div class="menu-item">
+                        <span>Pages</span>
+                        <img src="./icons/arrow.svg" alt="" class="arrow-default">
+                        <img src="./icons/arrow-pink.svg" alt="" class="arrow-hover">
+                    </div>
+                    <div class="menu-item active" onclick="document.location='/online-store/shop.html'">
+                        <span>Shop</span>
+                        <img src="./icons/arrow.svg" alt="" class="arrow-default">
+                        <img src="./icons/arrow-pink.svg" alt="" class="arrow-hover">
+                    </div>
+                    <div class="menu-item">
+                        <span>Blog</span>
+                    </div>
+                    <div class="menu-item">
+                        <span>Contact</span>
+                    </div>
                 </div>
             </div>
-            <div class="menu">
-                <div class="menu-item">
-                    <span>Home</span>
+            <div class="right-side">
+                <div class="header-icon">
+                    <img src="./icons/search.svg" alt="">
                 </div>
-                <div class="menu-item">
-                    <span>Pages</span>
-                    <img src="./icons/arrow.svg" alt="" class="arrow-default">
-                    <img src="./icons/arrow-pink.svg" alt="" class="arrow-hover">
+                <div class="header-icon">
+                    <img src="./icons/profile.svg" alt="">
                 </div>
-                <div class="menu-item active" onclick="document.location='/online-store/shop.html'">
-                    <span>Shop</span>
-                    <img src="./icons/arrow.svg" alt="" class="arrow-default">
-                    <img src="./icons/arrow-pink.svg" alt="" class="arrow-hover">
+                <div class="header-icon">
+                    <img src="./icons/heart.svg" alt="">
+                    <div class="counter">1</div>
                 </div>
-                <div class="menu-item">
-                    <span>Blog</span>
-                </div>
-                <div class="menu-item">
-                    <span>Contact</span>
+                <div class="header-icon" onclick="document.location='/online-store/cart.html'">
+                    <img src="./icons/cart.svg" alt="">
+                    <div class="counter">2</div>
                 </div>
             </div>
-        </div>
-        <div class="right-side">
-            <div class="header-icon">
-                <img src="./icons/search.svg" alt="">
-            </div>
-            <div class="header-icon">
-                <img src="./icons/profile.svg" alt="">
-            </div>
-            <div class="header-icon">
-                <img src="./icons/heart.svg" alt="">
-                <div class="counter">2</div>
-            </div>
-            <div class="header-icon cart" onclick="document.location='/online-store/cart.html'">
-                <img src="./icons/cart.svg" alt="">
-                <div class="counter">1</div>
-            </div>
-        </div>
-    </header>
+        </header>
+    </div>
 
     <div class="first-screen">
         <div class="dots-element">

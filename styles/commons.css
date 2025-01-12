@@ -16,6 +16,14 @@
     padding: 0 0 15px 0;
 }
 
+/* header-container */
+
+.header-container {
+    max-width: 1800px;
+    width: 100%;
+    margin: 50px auto 0 auto;
+}
+
 /* first-screen */
 
 .first-screen {
