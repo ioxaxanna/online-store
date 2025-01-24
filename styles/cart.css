@@ -1,18 +1,18 @@
 /* order */
-.cart {}
 
-.cart .order-wrapper {
+.order-wrapper {
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 20px;
+    margin: 0 0 60px 0;
 }
 
-.cart .order-wrapper .product-list {
+.order-wrapper .product-list {
     max-width: 720px;
     width: 100%;
 }
 
-.cart .order-wrapper .order {
+.order-wrapper .order {
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -22,20 +22,20 @@
     border: 1px solid #4444441A;
 }
 
-.cart .order-wrapper .order .title {
+.order-wrapper .order .title {
     font-family: Josefin Sans;
     font-size: 32px;
     font-weight: 400;
     color: #000000;
 }
 
-.cart .order-wrapper .order .order-price-wrapper {
+.order-wrapper .order .order-price-wrapper {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.cart .order-wrapper .order .order-price-wrapper .price-row {
+.order-wrapper .order .order-price-wrapper .price-row {
     display: flex;
     justify-content: space-between;
     font-family: Raleway;
@@ -46,23 +46,23 @@
     border-bottom: 1px solid #444444;
 }
 
-.cart .order-wrapper .order .order-price-wrapper .price-row .name .additional {
+.order-wrapper .order .order-price-wrapper .price-row .name .additional {
     font-size: 14px;
     margin: 0 0 0 9px;
 }
 
-.cart .order-wrapper .order .order-price-wrapper .price-row.delimiter {
+.order-wrapper .order .order-price-wrapper .price-row.delimiter {
     border-bottom: 2px solid #000000;
 }
 
-.cart .order-wrapper .order .order-price-wrapper .price-row.total {
+.order-wrapper .order .order-price-wrapper .price-row.total {
     font-size: 20px;
     font-weight: 400;
     color: #000000;
     border-bottom: none;
 }
 
-.cart .order-wrapper .order .order-price-wrapper .price-row .price {
+.order-wrapper .order .order-price-wrapper .price-row .price {
     font-family: Josefin Sans;
     font-size: 20px;
     font-weight: 400;
@@ -71,7 +71,7 @@
 
 /* product-list */
 
-.cart .order-wrapper .product-list {
+.order-wrapper .product-list {
     max-width: 720px;
     width: 100%;
     display: flex;
@@ -80,7 +80,7 @@
     border-bottom: 2px solid black;
 }
 
-.cart .order-wrapper .product-list .product-cart-item {
+.order-wrapper .product-list .product-cart-item {
     display: flex;
     gap: 30px;
     width: 100%;
@@ -88,7 +88,7 @@
     margin: 0 0 10px 0;
 }
 
-.cart .order-wrapper .product-list .product-cart-item .product-cart-item-prewiev {
+.order-wrapper .product-list .product-cart-item .product-cart-item-prewiev {
     max-width: 130px;
     width: 100%;
     height: 140px;
@@ -96,7 +96,7 @@
     margin: 0 0 20px 0;
 }
 
-.cart .order-wrapper .product-list .product-cart-item .product-cart-item-information {
+.order-wrapper .product-list .product-cart-item .product-cart-item-information {
     max-width: 560px;
     width: 100%;
     display: flex;
@@ -105,13 +105,13 @@
     gap: 25px;
 }
 
-.cart .order-wrapper .product-list .product-cart-item .product-cart-item-information .name {
+.order-wrapper .product-list .product-cart-item .product-cart-item-information .name {
     font-family: Josefin Sans;
     font-size: 20px;
     font-weight: 400;
 }
 
-.cart .product-cart-item-information .item-info {
+.product-cart-item-information .item-info {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -120,12 +120,12 @@
     align-items: center;
 }
 
-.cart .product-cart-item-information .item-info .price {
+.product-cart-item-information .item-info .price {
     display: flex;
     gap: 10px;
 }
 
-.cart .product-cart-item-information .item-info .price-and-count {
+.product-cart-item-information .item-info .price-and-count {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -134,21 +134,21 @@
     gap: 48px;
 }
 
-.cart .product-cart-item-information .item-info .price .old-price {
+.product-cart-item-information .item-info .price .old-price {
     font-family: Josefin Sans;
     font-size: 16px;
     font-weight: 300;
     text-decoration-line: line-through;
 }
 
-.cart .product-cart-item-information .item-info .price .current-price {
+.product-cart-item-information .item-info .price .current-price {
     font-family: Josefin Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
 }
 
-.cart .product-cart-item-information .item-info .count {
+.product-cart-item-information .item-info .count {
     display: flex;
     justify-content: center;
     gap: 20px;
@@ -158,19 +158,19 @@
     background-color: rgba(248, 248, 251, 1);
 }
 
-.cart .product-cart-item-information .item-info .count .count-minus {
+.product-cart-item-information .item-info .count .count-minus {
     display: flex;
     align-items: center;
 }
 
-.cart .product-cart-item-information .item-info .count .count-number {
+.product-cart-item-information .item-info .count .count-number {
     font-family: Raleway;
     font-size: 16px;
     font-weight: 400;
 }
 
 
-.cart .product-cart-item-information .item-info .final-price {
+.product-cart-item-information .item-info .final-price {
     font-family: Josefin Sans;
     font-size: 20px;
     font-weight: 400;
@@ -180,12 +180,12 @@
 /* promo */
 
 .block-promo {
-    padding: 60px 0 250px 0;
     max-width: 375px;
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin: 0 0 250px 0;
 }
 
 .block-promo .block-promo-information {

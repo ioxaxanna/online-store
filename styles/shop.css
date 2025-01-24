@@ -1,7 +1,6 @@
 .shop {
     display: flex;
     gap: 50px;
-    margin-bottom: 200px;
 }
 
 /* sidebar search */
@@ -445,10 +444,13 @@
 
 /* subscribe */
 
-.newsletter-subscribe {
+.newsletter-subscribe-container {
     max-width: 1680px;
     width: 100%;
-    margin: 0 auto 120px;
+    margin: 200px auto 120px auto;
+}
+
+.newsletter-subscribe {
     padding: 0 781px 162px 275px;
     background-color: rgba(241, 242, 243, 1);
 }
